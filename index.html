@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gîte de Paquenot</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="gite/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="gite/assets/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- owl carousel css -->
+    <link href="gite/assets/js/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="gite/assets/js/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="gite/assets/js/owl-carousel/owl.transitions.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="gite/assets/css/styles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="background-image-overlay"></div>
+
+    <div id="outer-background-container" data-default-background-img="gite/assets/images/other_images/bg5.jpg" style="background-image:url("gite/assets/images/other_images/bg5.jpg");"></div>
+    <!-- end: #outer-background-container -->
+
+    <!-- Outer Container -->
+    <div id="outer-container">
+
+      <!-- Left Sidebar -->
+      <section id="left-sidebar">
+
+        <div class="logo">
+          Le gîte de Paquenot
+        </div><!-- .logo -->
+
+        <!-- Menu Icon for smaller viewports -->
+        <div id="mobile-menu-icon" class="visible-xs" onClick="toggle_main_menu();"><span class="glyphicon glyphicon-th"></span></div>
+
+        <ul id="main-menu">
+          <li id="menu-item-home" class="menu-item scroll active"><a href="#home">Accueil</a></li>
+          <li id="menu-item-text" class="menu-item scroll"><a href="#text">Détails</a></li>
+          <li id="menu-item-featured" class="menu-item scroll"><a href="#featured">Photos</a></li>
+          <li id="menu-item-grid" class="menu-item scroll"><a href="#grid">Activités</a></li>
+          <li id="menu-item-contact" class="menu-item scroll"><a href="#contact">Contact</a></li>
+        </ul><!-- #main-menu -->
+
+      </section><!-- #left-sidebar -->
+      <!-- end: Left Sidebar -->
+
+      <section id="main-content" class="clearfix">
+
+        <article id="home" class="section-wrapper clearfix" data-custom-background-img="gite/assets/images/other_images/bg1.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-9 pull-right darken">
+
+                <section class="feature-text">
+                  <h1>Bienvenue au gîte de Paquenot</h1>
+                  <p>Louez un gîte de vacances à la campagne, au calme dans une ancienne ferme.</p>
+                  <p>Le gîte est situé à 1/2 heure de 2 lacs alpins (Lac du Bourget et Lac d'Annecy).</p>
+                  <p><a href="#text" class="link-scroll btn btn-outline-inverse btn-lg">Plus d'information</a></p>
+                </section>
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+        <article id="text" class="section-wrapper clearfix" data-custom-background-img="gite/assets/images/other_images/bg2.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-9 pull-right darken">
+
+                <h1 class="section-title">Détails</h1>
+                <ul>
+                    <li>1 chambre avec 1 lit de 140cm</li>
+                    <li>1 chambre avec 2 lits simples et 1 lit bébé à barreaux (1 chaise haute et 1 réhausseur)</li>
+                    <li>1 salon avec télévision et clic clac</li>
+                    <li>1 cuisine aménagée (frigo, lave vaisselle, four et micro-ondes)</li>
+                    <li>1 salle de bains avec cabine, WC et lave linge</li>
+                </ul>
+                <h4>Prix à la semaine de 335€ à 450€</h4>
+                <p>Ouvert toute l'année</p>
+                <h4>Options</h4>
+                <p>Linge de maison fourni sur demande : 10€ par personne pour le séjour.</p>
+                <p>Possibilité de chambre d'hôtes : 1 personne 49€, 2 personnes 65€, 3 personnes 78€, 4 personnes 98€.</p>
+                <p>Personne supplémentaire : 20€ petit déjeuner compris.</p>
+                <p>Week-end -15%</p>
+                <h4>Divers</h4>
+                <p>Cocktail de bienvenue et petit déjeuner compris.</p>
+                <p>Le gîte est strictement non fumeur, mais il reste le jardin. Animaux non admis.</p>
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+        <article id="featured" class="section-wrapper clearfix" data-custom-background-img="gite/assets/images/other_images/bg8.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-11 pull-right darken">
+
+                <h1 class="section-title">Photos du gîte</h1>
+
+                <!-- feature columns -->
+                <section class="feature-columns row clearfix">
+
+                  <!-- feature 1 -->
+                  <article class="feature-col col-md-4">
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-6');" class="thumbnail linked">
+                      <div class="image-container">
+                        <img data-img-src="gite/assets/images/other_images/gite3.jpg" class="lazy item-thumbnail" alt="Salon">
+                      </div>
+                      <div class="caption">
+                        <h5>Salon</h5>
+                        <p>Salon avec télévision et clic clac</p>
+                      </div><!-- .caption -->
+                    </a><!-- .thumbnail -->
+
+                    <div class="content-to-populate-in-modal" id="modal-content-6">
+                      <img data-img-src="gite/assets/images/other_images/gite3.jpg" class="lazy full-width" alt="Salon">
+                      <h1>Salon</h1>
+                      <p>Salon avec télévision et clic clac</p>
+                    </div><!-- #modal-content-7 -->
+                  </article>
+
+                  <!-- feature 2 -->
+                  <article class="feature-col col-md-4">
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-7');" class="thumbnail linked">
+                      <div class="image-container">
+                        <img data-img-src="gite/assets/images/other_images/gite4.jpg" class="lazy item-thumbnail" alt="Cuisine">
+                      </div>
+                      <div class="caption">
+                        <h5>Cuisine</h5>
+                        <p>Cuisine aménagée avec frigo, lave vaisselle, four et micro-ondes</p>
+                      </div><!-- .caption -->
+                    </a><!-- .thumbnail -->
+
+                    <div class="content-to-populate-in-modal" id="modal-content-7">
+                      <img data-img-src="gite/assets/images/other_images/gite4.jpg" class="lazy full-width" alt="Cuisine">
+                      <h1>Cuisine</h1>
+                      <p>Cuisine aménagée avec frigo, lave vaisselle, four et micro-ondes</p>
+                    </div><!-- #modal-content-7 -->
+                  </article>
+
+                  <!-- feature 3 -->
+                  <article class="feature-col col-md-4">
+                    <a href="" onclick="populate_and_open_modal(event, 'modal-content-8');" class="thumbnail linked">
+                      <div class="image-container">
+                        <img data-img-src="gite/assets/images/other_images/gite5.jpg" class="lazy item-thumbnail" alt="Chambre">
+                      </div>
+                      <div class="caption">
+                        <h5>Chambre</h5>
+                        <p>Chambre avec lit de 140cm</p>
+                      </div><!-- .caption -->
+                    </a><!-- .thumbnail -->
+
+                    <div class="content-to-populate-in-modal" id="modal-content-8">
+                      <img data-img-src="gite/assets/images/other_images/gite5.jpg" class="lazy full-width" alt="Chambre">
+                      <h1>Chambre</h1>
+                      <p>Chambre avec lit de 140cm</p>
+                    </div><!-- #modal-content-8 -->
+
+                  </article>
+
+                </section><!-- end: .feature-columns -->
+
+              <!-- End: Section content to edit -->
+
+            </div><!-- .col-sm-10 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+        <article id="grid" class="section-wrapper clearfix" data-custom-background-img="gite/assets/images/other_images/bg9.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-11 col-md-10 pull-right darken">
+
+                <h1 class="section-title">Activités dans la région</h1>
+
+                <!-- grid -->
+                <section class="grid row clearfix clearfix-for-2cols">
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <span class="icon glyphicon glyphicon-ok"></span>
+                      <div class="text-content">
+                        <h5>Parapente et Deltaplane</h5>
+                        <p>Le site de décollage du col du Sapenay est à 10 minutes en voiture.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <span class="icon glyphicon glyphicon-ok"></span>
+                      <div class="text-content">
+                        <h5>Escalade</h5>
+                        <p>Le site d'escalade du col du Sapenay est à 10 minutes en voiture.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <span class="icon glyphicon glyphicon-ok"></span>
+                      <div class="text-content">
+                        <h5>Randonnée</h5>
+                        <p>Les possibilités de randonnées dans la région sont très nombreuses.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <span class="icon glyphicon glyphicon-ok"></span>
+                      <div class="text-content">
+                        <h5>Lacs</h5>
+                        <p>Les lacs du Bourget et d'Annecy sont à une demi heure du gîte.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                  <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <span class="icon glyphicon glyphicon-ok"></span>
+                      <div class="text-content">
+                        <h5>Caves et Restaurants</h5>
+                        <p>Venez découvrir les vignobles et restaurants de Savoie.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                    <!-- grid item -->
+                  <div class="grid-item col-md-6">
+                    <div class="item-content clearfix">
+                      <span class="icon glyphicon glyphicon-ok"></span>
+                      <div class="text-content">
+                        <h5>Shopping</h5>
+                        <p>Vous pourrez profiter d'une visite d'Annecy pour faire les magasins.</p>
+                      </div>
+                    </div><!-- end: .item-content -->
+                  </div><!-- end: .grid-item -->
+
+                </section><!-- end: grid -->
+
+            </div><!-- .col-sm-11 -->
+          </div><!-- .content-wrapper -->
+        </article><!-- .section-wrapper -->
+
+        <article id="contact" class="section-wrapper clearfix" data-custom-background-img="gite/assets/images/other_images/bg10.jpg">
+          <div class="content-wrapper clearfix">
+            <div class="col-sm-10 col-md-10 pull-right darken">
+
+              <h1 class="section-title">Contact</h1>
+
+                <div class="contact-details col-sm-5 col-md-4">
+                  <p>Marcelle et François Emonet<br/>Grange<br/>73410 Cessens</p>
+                  <p>Tel: (+33) 4 79 63 11 97</p>
+                  <p>Mobile: (+33) 6 80 41 99 43</p>
+                  <p><a href="mailto:femonet@laposte.net">femonet@laposte.net</a></p>
+                </div>
+                <div class="col-sm-7 col-md-8">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m27!1m12!1m3!1d89045.2285044921!2d5.8789044284204435!3d45.7779358109815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m12!1i0!3e0!4m5!1s0x478ba0a29db9d2d3%3A0x408ab2ae4bab940!2sAix-les-Bains!3m2!1d45.692341!2d5.9089979999999995!4m3!3m2!1d45.822845099999995!2d5.897058899999999!5e0!3m2!1sen!2sfr!4v1404141018057" width="600" height="450" frameborder="0" style="border:0"></iframe>                </div><!-- .content-wrapper -->
+                </div>
+          </div>
+        </article><!-- .section-wrapper -->
+
+      </section><!-- #main-content -->
+
+      <!-- Footer -->
+      <section id="footer">
+
+        <!-- Go to Top -->
+        <div id="go-to-top" onclick="scroll_to_top();"><span class="icon glyphicon glyphicon-chevron-up"></span></div>
+
+        <!-- <ul class="social-icons">
+          <li><a href="#" target="_blank" title="Facebook"><img src="assets/images/theme_images/social_icons/facebook.png" alt="Facebook"></a></li>
+          <li><a href="#" target="_blank" title="Twitter"><img src="assets/images/theme_images/social_icons/twitter.png" alt="Twitter"></a></li>
+          <li><a href="#" target="_blank" title="Google+"><img src="assets/images/theme_images/social_icons/googleplus.png" alt="Google+"></a></li>
+        </ul> -->
+
+        <!-- copyright text -->
+        <div class="footer-text-line"></div>
+      </section>
+      <!-- end: Footer -->
+
+    </div><!-- #outer-container -->
+    <!-- end: Outer Container -->
+
+    <!-- Modal -->
+    <!-- DO NOT MOVE, EDIT OR REMOVE - this is needed in order for popup content to be populated in it -->
+    <div class="modal fade" id="common-modal" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <div class="modal-body">
+          </div><!-- .modal-body -->
+        </div><!-- .modal-content -->
+      </div><!-- .modal-dialog -->
+    </div><!-- .modal -->
+
+    <!-- Javascripts
+    ================================================== -->
+
+    <!-- Jquery and Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="gite/assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Easing - for transitions and effects -->
+    <script src="gite/assets/js/jquery.easing.1.3.js"></script>
+
+    <!-- background image strech script -->
+    <script src="gite/assets/js/jquery.backstretch.min.js"></script>
+    <!-- background image fix for IE 9 or less
+       - use same background as set above to <body> -->
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+    $(document).ready(function(){
+      jQuery("#outer-background-container").backstretch("assets/images/other_images/bg5.jpg");
+    });
+    </script>
+    <![endif]-->
+
+    <!-- detect mobile browsers -->
+    <script src="gite/assets/js/detectmobilebrowser.js"></script>
+
+    <!-- owl carousel js -->
+    <script src="gite/assets/js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Custom functions for this theme -->
+    <script src="gite/assets/js/functions.min.js"></script>
+    <script src="gite/assets/js/initialise-functions.js"></script>
+
+    <!-- IE9 form fields placeholder fix -->
+    <!--[if lt IE 9]>
+    <script>contact_form_IE9_placeholder_fix();</script>
+    <![endif]-->
+
+  </body>
+</html>
